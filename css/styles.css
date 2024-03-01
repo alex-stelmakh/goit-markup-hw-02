@@ -123,9 +123,9 @@ ol {
     text-align: center;
     color: #2e2f42;}
 
-.team-list {background-color: #ffffff;}
+.team-list {}
 
-.team-item {}
+.team-item {background-color: #ffffff;}
 
 .team-image {}
 
