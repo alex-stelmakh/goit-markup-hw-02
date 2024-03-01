@@ -14,13 +14,9 @@ ol {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
-
+    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -86,6 +82,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -115,7 +112,7 @@ ol {
 
 /* =====================TEAM====================== */
 
-.team {}
+.team {background-color: #f4f4fd;}
 
 .team-title {
     font-weight: 700;
@@ -126,7 +123,7 @@ ol {
     text-align: center;
     color: #2e2f42;}
 
-.team-list {}
+.team-list {background-color: #fff;}
 
 .team-item {}
 
